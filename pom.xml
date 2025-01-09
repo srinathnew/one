@@ -8,12 +8,12 @@
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 	
-	<properties>
+<!-- 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 
-	</properties>
-	<dependencies>
+	</properties> -->
+<!-- 	<dependencies>
 
 		
 		<dependency>
@@ -43,7 +43,7 @@
 		<name>Maven.org</name>
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
-	</pluginRepositories> 
+	</pluginRepositories>  -->
 <!-- 	<build>
     <plugins>
         <plugin>
@@ -57,6 +57,33 @@
         </plugin>
     </plugins>
 </build> -->
+
+<dependencies>  
+    <dependency>  
+      <groupId>junit</groupId>  
+      <artifactId>junit</artifactId>  
+      <version>3.8.1</version>  
+      <scope>test</scope>  
+    </dependency>  
+      
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->  
+<dependency>  
+    <groupId>org.springframework</groupId>  
+    <artifactId>spring-webmvc</artifactId>  
+    <version>5.1.1.RELEASE</version>  
+</dependency>  
+  
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->  
+<dependency>    
+    <groupId>javax.servlet</groupId>    
+    <artifactId>servlet-api</artifactId>    
+    <version>3.0-alpha-1</version>    
+</dependency>  
+  
+  </dependencies>  
+  <build>  
+    <finalName>SpringMVC</finalName>  
+  </build>  
 
 	
 </project>
