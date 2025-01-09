@@ -37,14 +37,14 @@
 		</repository>
   	</distributionManagement>
 	
-<!-- 	<pluginRepositories>
+ 	<pluginRepositories>
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
-	</pluginRepositories> -->
-	<build>
+	</pluginRepositories> 
+<!-- 	<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -56,7 +56,7 @@
             </configuration>
         </plugin>
     </plugins>
-</build>
+</build> -->
 
 	
 </project>
